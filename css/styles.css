@@ -1,0 +1,70 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-color: #EEEEEE;
+	font-family: 'Pacifico', cursive;
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	border-bottom: solid #141E61;
+	font-weight: bolder;
+}
+
+/*Header*/
+header{
+	width: 100%;
+	background-color: #B8DFD8;
+	padding: 18px;
+	position: fixed;
+	top: 0px;
+}
+nav{
+	display: inline-block;
+	padding: 1px;
+}
+
+nav li{
+	display: inline-block; 
+	margin-right: 50px;
+}
+.logo{
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+/*Footer*/
+footer{
+	background-color: #B8DFD8;
+}
+
+/*Main*/
+main{
+	height: 200vh;
+	border: solid darkblue;
+	margin-top: 12vh;
+}
+.footer__redes-sociales{
+	text-align: center;
+}
+footer li{
+	display: inline-block;
+	position: relative;
+}
+/*Media Queries*/
+@media only screen and (min-width: 922px){
+	body{
+		background-color: #54436B;
+	}
+}
